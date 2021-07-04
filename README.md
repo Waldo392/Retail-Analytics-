@@ -22,6 +22,7 @@ Applied the following algorithms and trained them on the training dataset using 
 * Polynomial Regressor 
 
 Used joblib to save the various hyperparameter settings of the algoriths and saved it in a <b>Model dictionary</b> used and then tested it on the validation dataset
+
 ![image](https://user-images.githubusercontent.com/69895829/124377191-50acbd80-dcc8-11eb-9f10-66a2c443a950.png)
 
 
