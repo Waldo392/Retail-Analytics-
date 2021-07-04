@@ -20,8 +20,13 @@ Applied the following algorithms and trained them on the training dataset using 
 * Decision tree Regressor 
 * Support Vector Regressor 
 * Polynomial Regressor 
-Used joblib to save the various hyperparameter settings of the algorith used and then tested it on the validation dataset
+Used joblib to save the various hyperparameter settings of the algoriths and saved it in a <b>Model dictionary</b> used and then tested it on the validation dataset
+![image](https://user-images.githubusercontent.com/69895829/124377191-50acbd80-dcc8-11eb-9f10-66a2c443a950.png)
+
 
 Crated a class to analyse the mean squared error and r-squared values that checked the latency of the various models used
+![image](https://user-images.githubusercontent.com/69895829/124377165-3246c200-dcc8-11eb-8e8c-189c82674983.png)
 
 After the validation it was fount that <b>Random Forest Regressor</b> with <u>max depth of 8 and 250 different decision trees</u> was the best in performance and gave accurate results 
+![image](https://user-images.githubusercontent.com/69895829/124377210-79cd4e00-dcc8-11eb-955d-6c9e4fefa22b.png)
+
